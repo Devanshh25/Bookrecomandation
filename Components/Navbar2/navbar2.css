@@ -1,0 +1,264 @@
+.macbook-pro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.macbook-pro .group {
+    height: 138px;
+    left: 2px;
+    position: absolute;
+    top: 126px;
+    width: 1725px;
+}
+
+.macbook-pro .navbar-wrapper {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #c0bebe;
+    height: 140px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+
+.macbook-pro .navbar {
+    height: 59px;
+    left: 273px;
+    position: relative;
+    top: 47px;
+    width: 1176px;
+}
+
+.macbook-pro .vector-3 {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 50px;
+}
+
+.macbook-pro .text-wrapper-4 {
+    color: #ff0000;
+    font-family: "Lato", Helvetica;
+    font-size: 44px;
+    font-weight: 700;
+    left: 92px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 137px;
+}
+
+.macbook-pro .vector-4 {
+    height: 50px;
+    left: 271px;
+    position: absolute;
+    top: 4px;
+    width: 50px;
+}
+
+.macbook-pro .text-wrapper-5 {
+    color: #ff0202;
+    font-family: "Lato", Helvetica;
+    font-size: 44px;
+    font-weight: 700;
+    left: 363px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 137px;
+}
+
+.macbook-pro .vector-5 {
+    height: 48px;
+    left: 541px;
+    position: absolute;
+    top: 6px;
+    width: 40px;
+}
+
+.macbook-pro .text-wrapper-6 {
+    color: #ff0202;
+    font-family: "Lato", Helvetica;
+    font-size: 44px;
+    font-weight: 700;
+    left: 622px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 175px;
+}
+
+.macbook-pro .vector-6 {
+    height: 50px;
+    left: 839px;
+    position: absolute;
+    top: 4px;
+    width: 50px;
+}
+
+.macbook-pro .text-wrapper-7 {
+    color: #ff0202;
+    font-family: "Lato", Helvetica;
+    font-size: 44px;
+    font-weight: 700;
+    left: 931px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 237px;
+}
+
+
+
+/* Cards css start */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@300&display=swap');
+
+.container1 {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 125px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+}
+
+.container12 {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+}
+
+.container12 .card {
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px rgba(212, 185, 150, .5);
+    transition: .5s;
+    text-align: center;
+    position: relative;
+}
+
+.container12 .card:hover {
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container12 .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.container12 .card .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.container12 .card .bottom .title {
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.container12 .card .bottom .amount {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+
+.overlay {
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-inner {
+    background: white;
+    width: 700px;
+    height: 550px;
+    padding: 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+.overlay-inner .close {
+    position: absolute;
+    top: 1rem;
+    left: 300px;
+    right: 1rem;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.overlay-inner .inner-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.overlay-inner .inner-box img {
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+.overlay-inner .inner-box h3 {
+    margin-top: 10px;
+    color: green;
+}
+
+.overlay-inner .inner-box h4 {
+    color: blue;
+}
+
+.overlay-inner .inner-box button {
+    outline: none;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #24a0ed;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+}
+
+.overlay-inner .description {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 13px;
+}

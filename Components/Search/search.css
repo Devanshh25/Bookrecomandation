@@ -1,0 +1,19 @@
+.headerMS .rectangle-8 {
+    background-color: #fffcf5;
+    border-radius: 20.14px;
+    height: 61px;
+    text-align: center;
+    left: 657px;
+    position: absolute;
+    top: 36px;
+    width: 427px;
+}
+
+
+.headerMS .vector {
+    height: 25px;
+    left: 679px;
+    position: absolute;
+    top: 54px;
+    width: 26px;
+}
